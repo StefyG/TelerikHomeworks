@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefClassesDemo2", "DefClassesDemo2\DefClassesDemo2.csproj", "{D76C0777-5C53-4AC7-B744-FF4838193C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClasses", "GenericClasses\GenericClasses.csproj", "{5039BC67-469C-46FB-B5D9-EEC82B5ADAF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{72963F08-63B5-472D-AE72-AC48B14EE402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D76C0777-5C53-4AC7-B744-FF4838193C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76C0777-5C53-4AC7-B744-FF4838193C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76C0777-5C53-4AC7-B744-FF4838193C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76C0777-5C53-4AC7-B744-FF4838193C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5039BC67-469C-46FB-B5D9-EEC82B5ADAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5039BC67-469C-46FB-B5D9-EEC82B5ADAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5039BC67-469C-46FB-B5D9-EEC82B5ADAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5039BC67-469C-46FB-B5D9-EEC82B5ADAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72963F08-63B5-472D-AE72-AC48B14EE402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72963F08-63B5-472D-AE72-AC48B14EE402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72963F08-63B5-472D-AE72-AC48B14EE402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72963F08-63B5-472D-AE72-AC48B14EE402}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
