@@ -1,0 +1,35 @@
+body {
+    background-color: azure;
+}
+
+main {
+    overflow: hidden;
+}
+
+nav {
+    float: left;
+    width: 30%;
+}
+
+fieldset.signIn {
+    width: 50px;
+}
+
+section {
+    float: right;
+    width: 70%;
+}
+
+header {
+    background-image: url(images/linkedin-logo.png) no-repeat;
+    width: 200px;
+}
+
+a {
+    color: blue;
+}
+
+fieldset {
+    border: 1px ridge silver;
+    width: 200px;
+}

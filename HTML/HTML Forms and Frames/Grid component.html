@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid Component</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table border="1px">
+	<tr>
+		<td colspan="6" class="main top-col">Drag a column header and drop it here to group by that column</td>
+	</tr>
+	<tr>
+		<td class="main first-col">ProductID</td>
+		<td class="main second-col">Product name</td>
+		<td class="main third-col">Unit price</td>
+		<td class="main fourth-col">Quantity per unit</td>
+		<td class="main fifth-col">Units in stock</td>
+		<td class="main sixth-col">Discontinued</td>
+	</tr>
+	<tr>
+		<td class="main">
+			<input type="text" class="first-col"/>
+		</td>
+		<td class="main">
+			<input type="text" class="second-col input1" />
+		</td>
+		<td class="main">
+			<input type="text" class="third-coll input2" />
+			<input type="image" src="button.png" class="button">
+		</td>
+		<td class="main">
+			<input type="text" class="fourth-col input3" />
+		</td>
+		<td class="main">
+			<input type="text" class="fifth-col input4" />
+			<input type="image" src="button.png" class="button">
+		</td>
+		<td class="main">
+			<input type="checkbox">
+			<input type="image" src="button.png" class="button">
+		</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td class="second">Chai</td>
+		<td>$18.00</td>
+		<td>10 boxes x 20 bags</td>
+		<td>39</td>
+		<td>
+			<input type="checkbox"/>
+		</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td class="second">Chang</td>
+		<td>$19.00</td>
+		<td>24 - 12 oz bottles</td>
+		<td>17</td>
+		<td>
+			<input type="checkbox"/>
+		</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td class="second">Aniseed Syrup</td>
+		<td>$10.00</td>
+		<td>12 - 550 ml bottles</td>
+		<td>17</td>
+		<td>
+			<input type="checkbox"/>
+		</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td class="second">Chef Anton's Cajun Seasoning</td>
+		<td>$22.00</td>
+		<td>48 - 6 oz jars</td>
+		<td>53</td>
+		<td>
+			<input type="checkbox"/>
+		</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td class="second">Chef Anton's Gumbo Mix</td>
+		<td>$21.35</td>
+		<td>36 boxes</td>
+		<td>0</td>
+		<td>
+			<input type="checkbox" checked/>
+		</td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td class="second">Grandma's Boysenberry Spread</td>
+		<td>$25.00</td>
+		<td>12 - 8 oz jars</td>
+		<td>120</td>
+		<td>
+			<input type="checkbox"/>
+		</td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td class="second">Uncle Bob's Oganic Dried Pears</td>
+		<td>$30.00</td>
+		<td>12 - 1 lb pkgs.</td>
+		<td>15</td>
+		<td>
+			<input type="checkbox"/>
+		</td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td class="second">Northwoods Cranberry Sauce</td>
+		<td>$40.00</td>
+		<td>12 - 12 oz jars</td>
+		<td>6</td>
+		<td>
+			<input type="checkbox"/>
+		</td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td class="second">Mishi Kobe Niku</td>
+		<td>$97.00</td>
+		<td>18 - 500 g pkgs.</td>
+		<td>29</td>
+		<td>
+			<input type="checkbox" checked />
+		</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td class="second">Ikura</td>
+		<td>$31.00</td>
+		<td>12 - 200 ml jars</td>
+		<td>31</td>
+		<td>
+			<input type="checkbox"/>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="main bottom-left">
+			<input type="image" src="fastback.png" class="button" id="fastback">
+			<input type="image" src="back.png" class="button" id="back">
+			<fieldset class="number">1</fieldset> 2 3 4 5 6 7 8 9 10 ...
+			<input type="image" src="forward.png" class="button">
+			<input type="image" src="fastforward.png" class="button">
+		</td>
+		<td class="main bottom-mid">
+			Page size:
+			<select>
+				<option value="10">10</option>
+			</select>
+		</td>
+		<td colspan="3" class="main bottom-right">
+			<span>335104 items in 33511 pages</span>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

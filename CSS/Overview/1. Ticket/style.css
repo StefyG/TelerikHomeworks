@@ -1,0 +1,39 @@
+body {
+	background-color: grey;
+	font-family: Arial;
+}
+h3 {
+	color: #C8C8C8;
+}
+.first-col {
+	color: white;
+	font-style: italic;
+}
+.second-col {
+	padding-left: 20px;
+}
+.support {
+	color: red;
+	padding-top: 0px;
+		
+}
+.yellow {
+	color: beige;
+}
+.orange {
+	color:orange;
+}
+.grey {
+	color: #C8C8C8;
+}
+ul li.yellow {
+	list-style: url(dot.png);	
+	padding-bottom: 0px;
+}
+td {
+	padding: 5px;
+}
+.name {
+	text-align: top;
+	padding-top: 0px;
+}

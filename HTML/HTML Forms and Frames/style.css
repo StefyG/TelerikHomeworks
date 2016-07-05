@@ -1,0 +1,68 @@
+.main{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+100,dddfe3+100,f5f6f6+100 */
+background: #f5f6f6; /* Old browsers */
+background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 100%, #dddfe3 100%, #f5f6f6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 100%,#dddfe3 100%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 100%,#dddfe3 100%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+table{
+	border-radius: 10px;
+	border-spacing: 0px;
+	}
+
+td{
+	padding-left: 5px;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	border-width: 1px;
+	border-bottom: none;
+	border-right:none;
+}
+
+
+.second{ width: 5px; }
+.first-col{	width: 30px;}
+.second-col{ width: 250px;}
+.input1{width: 150px;}
+.third-col{	width: 160px;}
+.input2{ width: 80px; }
+.fourth-col{ width: 152px }
+.input3{ width: 92px }
+.fifth-col{ width: 180px }
+.input4{ width: 80px }
+.sixth-col{ width: 85px }
+
+.button{ vertical-align: -6px }
+.bottom-right{
+	text-align: right;
+    border-left: none;
+    border-bottom-right-radius: 5px;
+}
+.bottom-mid{
+	border-left:none;
+	border-right:none;
+}
+.bottom-left{
+	border-right: none;
+	border-bottom-left-radius: 5px;
+}
+.top-col{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.number{}
+fieldset{
+	width: 3px;
+	padding: 3px;
+	border-radius: 5px;
+	border-color: red;
+	border-width: 1px;
+	float: left;
+}
+#fastback{float: left;}
+#back{float: left;
+margin-left: 3px;}

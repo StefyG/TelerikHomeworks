@@ -1,0 +1,31 @@
+body {
+	font-family: Arial;
+}
+
+img {
+	height: 10px;
+	padding-right: 5px;	
+}
+table, tr, td {
+	border: 1px solid silver;	
+	border-collapse: collapse;
+    font-family: Calibri;
+    font-size: 14px;
+    
+
+}
+td {
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.green {
+	background-color: #00C300;
+}
+.beige {
+	background-color: beige;
+}
+input[type="checkbox"] {
+	
+}

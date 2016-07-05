@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+
+<style type="text/css">
+	table {
+		border-spacing: 0px;
+		width: 250px;
+	}
+	.text{
+		text-align: right;
+	}
+	
+	.name {
+		width: 350px;
+	}
+	.shadow {
+		box-shadow: -1px -1px 0px;
+	}
+
+	#textarea {
+		width: 340px;
+		height: 50px;
+	}
+
+	td {
+		padding: 5px;
+	}
+
+	.city{
+		width: 250px;
+	}
+	.state{
+		width: 50px;
+	}
+	#zip {
+		width: 80px;
+	}
+	#country {
+		width: 250px;
+	}
+	#code{
+		width: 50px;
+	}
+	#operator{
+		width: 50px;
+	}
+	#email{
+		width: 350px;
+	}
+	#month{
+		width: 20px;
+	}
+	#day{
+		width: 20px;
+	}
+	.comments{
+		width: 340px;
+		height: 100px;
+	}
+	.last{
+		text-align: center;
+		background-color: #ccfff5;
+	}
+	.button{
+		box-shadow: 1px 1px 1px;
+	}
+
+</style>
+
+<form>
+<table border="1px">
+	<tr>
+		<td class="text"><b>Last Name</b></td>
+		<td colspan="3"><input type="text" class="name shadow"/></td>
+	</tr>
+	<tr>
+		<td class="text"><b>First Name</b></td>
+		<td colspan="3"><input type="text" class="name shadow"/></td>
+	</tr>
+	<tr>
+		<td class="text"><b>Address</b></td>
+		<td colspan="3"><textarea id="textarea" class="shadow"></textarea></td>
+	</tr>
+	<tr>
+		<td class="text"><b>City</b></td>
+		<td><input type="text" class="city shadow"/></td>
+		<td class="text"><b>State</b></td>
+		<td class="state"><input type="text" class="state shadow" /></td>
+	</tr>
+	<tr>
+		<td class="text"><b>Zip/Postal Code</b></td>
+		<td colspan="3"><input type="text" id="zip" class="shadow" /></td>
+	</tr>
+	<tr>
+		<td class="text"><b>Country</b></td>
+		<td colspan="3"><select id="country" class="shadow">
+				<option value="bg">Bulgaria</option>
+				<option value="usa">USA</option>
+				<option value="china">China</option>
+		</td>
+	</tr>
+	<tr>
+		<td class="text"><b>Phone(country code, area code, number)</b></td>
+		<td colspan="3">(+<input type="number" id="code" class="shadow" /> ) <input type="number" id="operator" class="shadow" /> - <input type="number" class="shadow" /></td>
+	</tr>
+	<tr>
+		<td class="text"><b>E-mail</b></td>
+		<td colspan="3"><input type="email" id="email" class="shadow" /></td>
+	</tr>
+	<tr>
+		<td class="text"><b>Birth date</b></td>
+		<td colspan="3">Month <input type="number" min="1" max="12" id="month" class="shadow" /> 
+		Day <input type="number" min="1" max="31" id="day" class="shadow" />
+		Year (4 digit) <input type="number" min="1000" max="9999" class="shadow" />
+		</td>
+	</tr>
+	<tr>
+		<td class="text"><b>Gender</b></td>
+		<td colspan="3"><select class="shadow">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td class="text"><b>Starting date</b></td>
+		<td colspan="3"><input type="radio" value="spring">Spring 2006
+			<input type="radio" value="summer">Summer 2006
+		</td>
+	</tr>
+	<tr>
+		<td class="text"><b>Comments/Questions</b></td>
+		<td colspan="3"><textarea name="Comments" class="comments shadow"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan="4" class="last"><input type="submit" value="Submit" class="button"/>
+		<input type="reset" value="Clear This Form" class="button"/>
+		</td>
+	</tr>
+</table>
+</form>
+
+</body>
+</html>

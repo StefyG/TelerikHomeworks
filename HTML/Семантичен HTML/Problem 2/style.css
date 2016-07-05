@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    position: center;
+    left: 0px;
+    top: 0px;
+}
+
+img.logo {
+    position: absolute;
+    
+    left: 0px;
+    top: 0px;
+}
+
+nav {
+    position: absolute;
+    left: 0px;
+    top: 30%;
+}
+
+a {
+    color: blue;
+}
+
+main {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+}
+
+th {
+    font-size: 30px;
+}
